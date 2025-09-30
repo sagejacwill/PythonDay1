@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="added while loop for max attempts reached">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="added while loop for max attempts reached" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +38,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.demo_counter_loops.executor": "Run",
     "Python.demo_lotto.executor": "Run",
     "Python.demo_platform.executor": "Run",
     "Python.pytest.executor": "Run",
@@ -89,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759225415085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added while loop for max attempts reached">
+      <option name="closed" value="true" />
+      <created>1759226214105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759226214105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
