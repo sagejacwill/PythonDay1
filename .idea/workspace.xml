@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="added counter loop demo">
+    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="added iterator loop demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/demo_lotto.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/demo_lotto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Python.demo_iterator_loops.executor": "Run",
     "Python.demo_lotto.executor": "Run",
     "Python.demo_platform.executor": "Run",
+    "Python.demo_str_split_join.executor": "Run",
     "Python.pytest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -107,13 +109,30 @@
       <option name="project" value="LOCAL" />
       <updated>1759226623878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added iterator loop demo">
+      <option name="closed" value="true" />
+      <created>1759227699154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759227699154</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added iterator loop demo">
+      <option name="closed" value="true" />
+      <created>1759227745583</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759227745583</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new files" />
     <MESSAGE value="added while loop for max attempts reached" />
     <MESSAGE value="added counter loop demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added counter loop demo" />
+    <MESSAGE value="added iterator loop demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added iterator loop demo" />
   </component>
 </project>

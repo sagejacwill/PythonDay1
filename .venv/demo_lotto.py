@@ -16,6 +16,3 @@ while len(lotto) < 6:
         lotto.append(num)
 
 print(lotto)
-
-
-
