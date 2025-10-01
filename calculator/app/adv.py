@@ -1,9 +1,12 @@
 #! /usr/bin/env python3
 # Author: SWilliams
 # Description: This module defines advanced calc functions
+
 """
     Advanced Calc Module with mod, power and sqrt functions
 """
+
+import sys
 
 def mod(x, z):
     """ Return REMAINDER after integer div of x by z """
@@ -22,3 +25,6 @@ print(f"4 % 3 = {mod(4, 3)}")
 print(f"4 ** 3 = {power(4, 3)}")
 print(f"\N{square root}99 = {sqrt(99)}")
 print("###########################################")
+
+sys.exit(0)
+
