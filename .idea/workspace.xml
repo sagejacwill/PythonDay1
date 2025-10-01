@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="wrote file handling and string parsing program">
-      <change afterPath="$PROJECT_DIR$/Demos/demo_words_user_function.py" afterDir="false" />
+    <list default="true" id="4b9cd328-9e82-43ba-ba45-19abc4d73d90" name="Changes" comment="wrote function demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759311960950</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wrote function demo">
+      <option name="closed" value="true" />
+      <created>1759323362712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759323362712</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +189,7 @@
     <MESSAGE value="added string formatting demo" />
     <MESSAGE value="moved files to 'Demos' folder" />
     <MESSAGE value="wrote file handling and string parsing program" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote file handling and string parsing program" />
+    <MESSAGE value="wrote function demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote function demo" />
   </component>
 </project>
