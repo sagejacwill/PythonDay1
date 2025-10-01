@@ -45,3 +45,6 @@ class Tank:
     # Example of OPERATOR OVERLOADING
     def __add__(self, other):
         return self._health + other._health
+
+def __str__(self):
+     return f"Model={self.model}, health={self._health}, speed={self._speed}"
