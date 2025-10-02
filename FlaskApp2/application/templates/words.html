@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <p>Welcome to my 2nd inherited template</p>
+    <p><b>Favourite Towns</b></p>
+    <ul>
+      {% for word in words  %}
+      <li>
+          {{ word }}
+      </li>
+      {% endfor %}
+    </ul>
+{% endblock %}
+
