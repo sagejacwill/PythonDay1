@@ -27,10 +27,12 @@ def main():
     sage_tank.take_damage(59)
     arash_tank.take_damage(22)
 
-    # And now for some VISUALS!
-    print(f"Health of Sage's Tank is {sage_tank._health}")
+    # Sage has received a health boost
+    # sage_tank._health = 100 # POOR CODE - Variable is PRIVATE!
+    # print(f"New health of Sage's tank: {sage_tank._health}")
 
-    print(f"Health of Sage's and Arash's Tanks: {sage_tank + arash_tank}")
+    sage_tank.set_health(101)  # Good - using a SETTER method
+    print(f"New health of Sage's tank: {sage_tank.get_health()}")  # Good - GETTER method
 
     return None
 
