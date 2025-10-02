@@ -40,6 +40,11 @@ def get_square(number):
 def say_hello(name):
     return f"Hello {name.title()}!"
 
+@app.route('/')
+@app.route('/home', methods=['GET'])
+def home():
+    return render_template("home.html", title="Home")
+
 @app.route("/index/<name>/<int:iq>")
 def index(name, iq):
     url = url_for("get_text")
@@ -61,3 +66,4 @@ def index(name, iq):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
