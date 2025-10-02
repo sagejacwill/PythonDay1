@@ -1,27 +1,20 @@
-import basic
+from calculator.app.basic import add, mul, div
+import unittest
 
-def test_add():
-    assert basic.add(4, 3, 2, 1) == 10.1, "Should be 10.1"
-    assert basic.add(30, 20) == 50.0, "Should be 50.0"
-    return None
+class TestBasic(unittest.TestCase):
+    def test_add(self):
+        self.assertEqual(add(4, 3, 2, 1), 10.0, "Should be 10.0")
+        self.assertEqual(add(30, 20), 50.0, "Should be 50.0")
+        return None
 
-def test_mul():
-    assert basic.mul(4, 3, 2) == 25.0, "Should be 25.0"
-    return None
+    def test_mul(self):
+        self.assertEqual(mul(4, 3, 2), 24.0, "Should be 24.0")
+        return None
 
-def test_div():
-    assert basic.div(4, 3) == 1.334, "Should be 1.334"
-    return None
-
-def main():
-    print("Starting Tests...")
-    test_add()
-    test_mul()
-    test_div()
-    print("All TESTS Successful")
-    return None
+    def test_div(self):
+        self.assertEqual(div(4, 3), 1.333, "Should be 1.333")
+        return None
 
 # Namespace Trick
 if __name__ == "__main__":
-    main()
-
+    unittest.main()
