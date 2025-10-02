@@ -13,5 +13,10 @@ app = Flask(__name__)
 def hello_from_flask():
     return 'Hello from Flask'
 
+@app.route('/sky', methods=['GET'])
+def hello_grads():
+    return 'Hello Sky Grads'
+
 if __name__ == '__main__':
     app.run(debug=True)
+
